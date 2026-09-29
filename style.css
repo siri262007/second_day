@@ -1,0 +1,86 @@
+body {
+    background-color: #98b4cb;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile-container {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+/* YOUR PHOTO */
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-info p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.boxes {
+    margin-bottom: 20px;
+}
+
+.info-box {
+    height: 120px;
+    margin: 10px;
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.pink-box {
+    background-color: #e77b9e;
+}
+
+.green-box {
+    background-color: #8bcf72;
+}
+
+.info-box h5 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    }
+}
